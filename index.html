@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Me, Myself, and I</title>
+
+<style>
+    :root {
+    --sage-green: #C5D0C6;
+    --soft-white: #EEF0F1;
+    --cream: #F9F7E8;
+    --beige: #E9DCC9;
+    --dusty-rose: #D8D0D1;
+    --slate-grey: #6f7480;
+    --text-main: #333;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: var(--soft-white);
+    color: var(--text-main);
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background-color: var(--sage-green);
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid var(--slate-grey);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.4em;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: var(--beige);
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: var(--black);
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* NAV hover */
+nav a:hover {
+    background-color: var(--dusty-rose);
+}
+
+/* MAIN */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 6px solid var(--dusty-rose);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* INDIVIDUAL SECTION COLORS */
+#about {
+    background-color: var(--cream);
+    text-align: center;
+}
+
+#hobbies {
+    background-color: var(--cream);
+}
+
+#favorites {
+    background-color: var(--cream);
+}
+
+#contact {
+    background-color: var(--beige);
+}
+
+/* HOVER EFFECT */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h2 {
+    color: var(--slate-grey);
+    margin-bottom: 10px;
+}
+
+/* IMAGE */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: 3px solid var(--sage-green);
+}
+
+/* LISTS */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* GLOBAL LINK STYLE (FOR CONTENT LINKS) */
+section a {
+    color: var(--slate-grey);
+    text-decoration: none;
+    border-bottom: 2px solid var(--dusty-rose);
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+
+section a:hover {
+    color: #4f5560;
+    border-bottom: 2px solid var(--slate-grey);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--sage-green);
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer p {
+    color: #333;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Christian Joshua M. Tamayo</h1>
+    <p>BS Information Technology - MWA - 2nd Year</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#favorites">Favorites</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="pic.jpg" alt="Profile Picture">
+    <p>
+        Hello! I'm <strong>Christian Joshua M. Tamayo</strong>, a second-year BSIT-MWA student at National University.
+        I enjoy exploring technology and watching horror game content. I am especially interested
+        in programming and how digital solutions are built to solve real-world problems.
+    </p>
+</section>
+
+<section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Watching gameplay videos</li>
+        <li>Playing mobile games</li>
+        <li>Listening to music</li>
+        <li>Editing photos</li>
+    </ul>
+</section>
+
+<section id="favorites">
+    <h2>Favorite Websites</h2>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: intak@gmail.com</p>
+    <p>Phone: 09876543211</p>
+    <p>Facebook: <a href="https://fb.com" target="_blank"><strong>Intak</strong></a></p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Christian Joshua M. Tamayo | Web Systems & Technologies | Week 3</p>
+</footer>
+
+</body>
+</html>
