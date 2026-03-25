@@ -1,0 +1,151 @@
+:root {
+    --sage-green: #C5D0C6;
+    --soft-white: #EEF0F1;
+    --cream: #F9F7E8;
+    --beige: #E9DCC9;
+    --dusty-rose: #D8D0D1;
+    --slate-grey: #6f7480;
+    --text-main: #333;
+    --black: #000;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: var(--soft-white);
+    color: var(--text-main);
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background-color: var(--sage-green);
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid var(--slate-grey);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.4em;
+    color: #2f3e34;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: var(--beige);
+    padding: 7px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    color: var(--black);
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--dusty-rose);
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    scroll-margin-top: 100px;
+    border-left: 6px solid var(--dusty-rose);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* SECTION COLORS */
+#about, #hobbies, #favorites {
+    background-color: var(--cream);
+}
+
+#contact {
+    background-color: var(--beige);
+}
+
+/* HOVER EFFECT */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h2 {
+    color: var(--slate-grey);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* IMAGE */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: 3px solid var(--sage-green);
+}
+
+/* LISTS */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* TEXT SPACING */
+section p, section ul {
+    margin-top: 10px;
+}
+
+/* LINKS */
+section a {
+    color: var(--slate-grey);
+    text-decoration: none;
+    border-bottom: 2px solid var(--dusty-rose);
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+
+section a:hover {
+    color: #4f5560;
+    border-bottom: 2px solid var(--slate-grey);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--sage-green);
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer p {
+    color: #333;
+}
