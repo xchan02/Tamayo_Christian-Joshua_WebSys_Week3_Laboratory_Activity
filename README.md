@@ -1,2 +1,2 @@
-# Tamayo_Christian_Joshua_WebSys_Week3_Laboratory_Activity
+# Tamayo_Christian_Joshua_WebSys_Week3
 03252026 - Lab3
